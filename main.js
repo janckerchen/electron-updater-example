@@ -5,7 +5,6 @@ const { app, BrowserWindow, Menu, protocol, ipcMain } = require("electron");
 const log = require("electron-log");
 const { autoUpdater } = require("electron-updater");
 
-process.env.GH_TOKEN = "589b730d9ab4dae03e8c20038270eed472d68757";
 //-------------------------------------------------------------------
 // Logging
 //
